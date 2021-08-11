@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Crud.BaseControllers.Controllers.SwaggerJsonController" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\SwaggerJsonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.ControllerBase" Collapsed="true">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Crud.BaseControllers.Controllers.AcceptRejectController&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AcceptRejectController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crud.BaseControllers.Controllers.AChangeDataController&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Controllers\AChangeDataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crud.BaseControllers.Controllers.ADataController&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Controllers\ADataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.AspNetCore.OData.Routing.Controllers.ODataController" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
