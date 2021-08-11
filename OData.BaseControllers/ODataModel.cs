@@ -50,10 +50,8 @@ namespace ODataGeneric.BaseControllers
             EntityTypeConfiguration entity = builder.AddEntityType(type);
             EntitySetConfiguration setConfig = builder.AddEntitySet(type.Name, entity);
 
-            dynamic entityTypeConfiguration =
-                GetConstructor(typeof(EntityTypeConfiguration<>), type, typeof(EntityTypeConfiguration)).Invoke(new object[] { builder, entity });
-            dynamic entitySetConfiguration = GetConstructor(typeof(EntitySetConfiguration<>), type, typeof(EntitySetConfiguration))
-                .Invoke(new object[] { builder, setConfig });
+            dynamic entityTypeConfiguration = GetConstructor(typeof(EntityTypeConfiguration<>), type, typeof(EntityTypeConfiguration)).Invoke(new object[] { builder, entity });
+            dynamic entitySetConfiguration = GetConstructor(typeof(EntitySetConfiguration<>), type, typeof(EntitySetConfiguration)).Invoke(new object[] { builder, setConfig });
 
             dynamic collection = entityTypeConfiguration.Collection;
             if (!addAcceptReject)
